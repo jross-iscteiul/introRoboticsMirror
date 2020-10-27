@@ -1,0 +1,8 @@
+prefix=/home/sksuricata/catkin_ws/install
+
+Name: ekf_localization
+Description: Description of ekf_localization
+Version: 0.0.2
+Cflags: 
+Libs: -L${prefix}/lib -lpose_estimation_ekf
+Requires: 

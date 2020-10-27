@@ -1,0 +1,6 @@
+<launch>
+    <arg name="map_file" default="$(find turtlebot3_datasets)/data/map" />
+    <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file).yaml" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ekf_localization)/rviz/ekf.rviz"/>
+</launch>

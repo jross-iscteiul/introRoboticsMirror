@@ -1,0 +1,8 @@
+prefix=/home/sksuricata/catkin_ws/install
+
+Name: turtlebot3_functionalities
+Description: Description of turtlebot3_functionalities
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

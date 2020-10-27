@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="laser_values" type="pioneer_behavior.py" name="pioneer_smart_behavior" output="screen">
+        
+    </node>
+</launch>
